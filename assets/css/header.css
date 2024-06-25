@@ -1,10 +1,10 @@
 body{ 
-    background-color: rgb(255, 251, 0);
+    background-color: rgb(255, 255, 255);
 }
 .cabecalho{
     display: flex;
     justify-content: space-between;
-    background-color:rgb(190, 187, 87);
+    background-color:rgb(2, 134, 62);
     align-items: center;
 }
 .container{
@@ -25,4 +25,8 @@ body{
 }
 .menu-checkbox:checked ~ .menu-lista{
     display: block;
+}
+.lista-item{
+    padding: 1em;
+    background-color: white;
 }
