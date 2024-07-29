@@ -10,6 +10,13 @@ body{
 .container{
     margin: 0px 20px;
     padding: 0.5em;
+    background-color:rgb(2, 134, 62);
+}
+
+.lista-titulo{
+
+    background-color:var(--branco) ;
+    color: var(--laranja);
 }
 
 .menu-hamburguer{
@@ -30,5 +37,5 @@ body{
 }
 .lista-item{
     padding: 1em;
-    background-color: white;
+    background-color: var(--branco);
 }
