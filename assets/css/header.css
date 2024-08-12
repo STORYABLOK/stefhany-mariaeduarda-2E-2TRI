@@ -4,17 +4,16 @@ body{
 .cabecalho{
     display: flex;
     justify-content: space-between;
-    background-color:rgb(2, 134, 62);
+    background-color:rgb(26, 23, 77);
     align-items: center;
 }
 .container{
     margin: 0px 20px;
     padding: 0.5em;
-    background-color:rgb(2, 134, 62);
-}
+    background-color:rgb(26, 23, 77);}
+
 
 .lista-titulo{
-
     background-color:var(--branco) ;
     color: var(--laranja);
 }

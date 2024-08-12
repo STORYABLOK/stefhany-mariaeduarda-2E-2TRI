@@ -13,6 +13,8 @@
 .banner-texto{
     font-weight: 500;
     margin: 1em 0;
+    
+    
 }
 .banner-pesquisa{
     border: 1px solid white;
@@ -23,9 +25,11 @@
     width: 100%;
     background: url(../img/AluraBooks/Pesquisa.svg)no-repeat; 
     background-position: 1em;
+    text-align: center;
 
 }
 .banner-pesquisa::placeholder{
     color: var(--branco);
     text-align: center;
+    
 }
