@@ -41,4 +41,5 @@ body{
 .lista-item{
     padding: 1em;
     background-color: var(--branco);
+    color: orange;
 }
