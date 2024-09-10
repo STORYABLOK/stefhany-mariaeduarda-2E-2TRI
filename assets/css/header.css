@@ -1,24 +1,20 @@
-body{ 
-    background-color: rgb(255, 255, 255);
+body{
+    background-color: var(--cor-de-fundo);
 }
+
 .cabecalho{
     display: flex;
     justify-content: space-between;
-    background-color:rgb(225, 225, 238);
+    background-color: var(--branco);
     align-items: center;
 }
+
 .container{
-    margin: 0px 20px;
+    margin: 0px 14px;
     padding: 0.5em;
-    background-color: rgb(225, 225, 238);}
-
-
-.lista-titulo{
-    background-color:var(--branco) ;
-    color: var(--laranja);
 }
 
-.menu-hamburguer{
+.menu-hamburger{
     width: 24px;
     height: 24px;
     display: inline-block;
@@ -26,20 +22,40 @@ body{
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .menu-lista{
     display: none;
-    position:absolute;
-    width:60vw
+    position: absolute;
+    width: 60vw;
+
 }
-.menu-checkbox{
-    display: none;
+
+.lista-titulo{
+    background-color: var(--branco);
+    color: var(--laranja);
 }
+
 .menu-checkbox:checked ~ .menu-lista{
     display: block;
 }
 
+.menu-checkbox{
+    display: none;
+}
+
 .lista-item{
     padding: 1em;
-    background-color: var(--branco);
+    background-color:white;
     color: orange;
+}
+
+.banner-pesquisa{
+    border: 1px solid white;
+    background-color: transparent;
+    color: var(--branco);
+    border-radius: 24px;
+    padding: 1em;
+    width: 100%;
+    background: url(../img/AluraBooks/Pesquisa.svg) no-repeat; 
+    background-position: 1em;
 }
